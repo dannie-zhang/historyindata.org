@@ -1023,7 +1023,7 @@ function clearValues(n) {
   }
 
   //clear driving question
-  document.getElementById('driving_question').innerHTML = '';
+  document.getElementById('driving_question').value = '';
 }
 
 //Runs when the option for database changes.
